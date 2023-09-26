@@ -1,5 +1,6 @@
 # text_mining
-mineracao das emocoes
+Mineracao das emocoes:
+
 Projeto de Análise de Sentimentos com Flask e Naive Bayes
 Este projeto implementa um classificador de análise de sentimentos usando Flask (um framework web em Python) e o algoritmo Naive Bayes. Permite aos usuários inserir um texto e prever a emoção associada a esse texto. Este guia fornece instruções detalhadas para configurar o ambiente de desenvolvimento e executar o projeto.
 
@@ -84,7 +85,7 @@ O aplicativo Flask estará em execução. Abra um navegador da web e acesse http
 Estrutura do Projeto
 A estrutura do projeto é a seguinte:
 
-arduino
+
 Copy code
 projeto_sentimentos/
 ├── app.py
@@ -94,28 +95,18 @@ projeto_sentimentos/
 │   ├── index.html
 │   └── resultado.html
 ├── venv/  (ambiente virtual - se utilizado)
-└── requirements.txt
+
 
 
 app.py: O código principal do aplicativo Flask.
 basetreinamento1.csv e baseteste1.csv: Os arquivos CSV contendo os dados de treinamento e teste.
 templates/: O diretório que contém os modelos HTML usados para renderizar as páginas da web.
 venv/: O diretório do ambiente virtual (se utilizado).
-requirements.txt: O arquivo que lista todas as dependências do projeto.
+
 Contribuição
 Sinta-se à vontade para contribuir com melhorias neste projeto. Para fazer isso, siga as etapas usuais de fork e pull request.
 
 Licença
 Este projeto é distribuído sob a licença MIT.
 
-
-
-text_mining/
-├── app.py
-├── basetreinamento1.csv
-├── baseteste1.csv
-├── templates/
-│   ├── index.html
-│   └── resultado.html
-├── venv/  (ambiente virtual - se utilizado)
 
